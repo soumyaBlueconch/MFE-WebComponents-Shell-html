@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Testing the News Web Component</title>
+  <base href="/">
+</head>
+
+<body>
+
+  <web-comp1 [msgFromShellApp]="heyy i m ur shell app"></web-comp1>
+  <web-comp2></web-comp2>
+
+  <!-- web component 1 -->
+  <script type="text/javascript" src="./dist/angular-web-component/runtime.js"></script>
+  <script type="text/javascript" src="./dist/angular-web-component/polyfills.js"></script>
+  <script type="text/javascript" src="./dist/angular-web-component/main.js"></script>
+  <script type="text/javascript" src="./dist/angular-web-component/styles.css"></script>
+
+  <!-- web component 2 -->
+  <script type="text/javascript" src="./dist/angular-web-component2/runtime.js"></script>
+  <script type="text/javascript" src="./dist/angular-web-component2/polyfills.js"></script>
+  <script type="text/javascript" src="./dist/angular-web-component2/main.js"></script>
+  <script type="text/javascript" src="./dist/angular-web-component2/styles.css"></script>
+
+
+</body>
+
+</html>
